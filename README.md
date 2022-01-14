@@ -39,10 +39,10 @@ $chmod 755 chr.py chrrev.py
 5. chr.py chrrev.pyの起動
 それぞれ別の端末で起動する
 ```
-$rosrun robosys2021_ros_program chr.py
+$rosrun mypkg chr.py
 ```
 ```
-$rosrun robosys2021_ros_program chrrev.py
+$rosrun mypkg chrrev.py
 ```
 6. キーボード操作
 1~100の数字の内一つをchr.pyの端末に入力しエンターを押す
