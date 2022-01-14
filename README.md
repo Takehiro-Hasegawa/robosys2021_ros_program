@@ -50,7 +50,9 @@ $rosrun mypkg chrrev.py
 chrrev.pyに句が表示される
 
 # 動画
-
+実行中の動画です
+https://youtu.be/OkopgMPOhX0
+＊動画では10首までだしています
 # 参考URL
 
 https://techacademy.jp/magazine/36666
