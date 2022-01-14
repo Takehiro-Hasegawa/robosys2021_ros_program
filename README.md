@@ -48,6 +48,9 @@ $rosrun robosys2021_ros_program chrrev.py
 1~100の数字の内一つをchr.pyの端末に入力しエンターを押す
 7. 表示
 chrrev.pyに句が表示される
+
+# 動画
+
 # 参考URL
 
 https://techacademy.jp/magazine/36666
