@@ -27,7 +27,30 @@ $git clone https://github.com/Takehiro-Hasegawa/robosys2021_ros_program.git
 $cd ~/catkin_ws
 $catkin_make
 ```
-
+3. roscoreの起動
+```
+$roscore
+```
+4. パーミッション設定
+```
+$cd ~/catkin_ws/src/robosys2021_ros_program/scripts
+$chmod 755 chr.py chrrev.py
+```
+5. chr.py chrrev.pyの起動
+それぞれ別の端末で起動する
+```
+rosrun robosys2021_ros_program chr.py
+```
+```
+rosrun robosys2021_ros_program chrrev.py
+```
+6. キーボード操作
+1~100の数字の内一つをchr.pyの端末に入力しエンターを押す
+7. 表示
+chrrev.pyに句が表示される
 # 参考URL
 
 https://techacademy.jp/magazine/36666
+
+
+https://qiita.com/keinko/items/7d0f26c19414291660d9
