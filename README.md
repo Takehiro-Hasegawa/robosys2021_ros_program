@@ -17,10 +17,17 @@
 - ros noetic
 
 # 実装手順
+1. インストール
 ```
-$cd ~catkin_ws/src
-$git clone 
+$cd ~/catkin_ws/src
+$git clone https://github.com/Takehiro-Hasegawa/robosys2021_ros_program.git
 ```
+2. パッケージのビルド
+```
+$cd ~/catkin_ws
+$catkin_make
+```
+
 # 参考URL
 
 https://techacademy.jp/magazine/36666
